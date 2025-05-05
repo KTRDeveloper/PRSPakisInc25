@@ -1,0 +1,4 @@
+#!/bin/sh
+
+exec /PRSPakisInc $1 --preprocessor=1 --clause_sharing=1 --pakis=1 --nThreads=28
+
